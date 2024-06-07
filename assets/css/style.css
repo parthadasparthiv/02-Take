@@ -1,0 +1,429 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap')
+
+
+
+
+/* font-family: "Open Sans", sans-serif; */
+
+/* font-family: "Merriweather", serif;  */
+
+
+*
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    box-sizing: border-box !important;
+}
+
+
+
+/* Menu Part  */
+
+
+
+/* Menu Part End */
+
+
+
+
+
+/* Hero part  */
+
+.HeroPart {
+    background: url(../img/hero-img.png) no-repeat center;
+    width: 100%;
+    height: 100vh;
+}
+.HeroCon {
+    display: flex;
+    align-items: center;
+    padding-top: 130px;
+}
+.HeroCon h1 {
+    font-size: 60px;
+    font-weight: 300;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+}
+.HeroCon p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+/* Hero part End */
+
+
+
+
+
+/* Mobile Part  */
+
+.mobilePart {
+    height: 80vh;
+    width: 100%;
+    padding-top: 90px;
+    position: relative;
+    margin-bottom: 50px;
+}
+.mobilePart h3 {
+    font-size: 35px;
+    font-weight: 200;
+    font-family: "Open Sans", sans-serif;
+    color: #222626;
+    padding-bottom: 20px;
+}
+.mobilePart p {
+    font-size: 14px;
+    color: #959595;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+}
+.iphonePart {
+    position: absolute;
+    top: -600px;
+    right: 20px;
+}
+.iphonePart ~ p {
+    padding-top: 250px;
+}
+
+/* Mobile Part End */
+
+
+
+
+/* Box Part  */
+
+.BoxPart {
+    height: 80vh;
+    width: 100%;
+}
+.port_con:hover .portfolio_overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+.port_con {
+    position: relative;
+    color: #ffffff;
+}
+.port_con {
+    height: 258px;
+    width: 372px;
+}
+.port_con-2 {
+    height: 258px;
+    width: 744px;
+}
+.port_con-2 .portfolio_overlay p {
+    padding-right: 150px;
+    padding-bottom: 40px;
+}
+.heart {
+    display: flex;
+    justify-content: space-between;
+}
+.heart-1 {
+    display: block;
+}
+.portfolio_overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 25px;
+}
+.portfolio_overlay a {
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 10px 0;
+    transition: .4s;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+}
+.portfolio_overlay h3 {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: "Open Sans", sans-serif;
+    padding-bottom: 10px;
+}
+.portfolio_overlay p {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+    padding-bottom: 10px;
+}
+
+/* Box Part End */
+
+
+
+
+
+/* About Part  */
+
+.AboutPart {
+    height: 70vh;
+    width: 100%;
+}
+.AboutPart h3 {
+    font-size: 35px;
+    font-weight: 300;
+    font-family: "Open Sans", sans-serif;
+    color: #222626;
+}
+.AboutPart h5 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #67676d;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 50px;
+}
+.AboutPart p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #959595;
+    padding-top: 20px;
+}
+
+/* About Part End */
+
+
+
+/* Driver Part  */
+
+.DrivingPart {
+    height: 100vh;
+    width: 100%;
+    background: url(../img/car.png) center no-repeat;
+}
+.DrivingCon {
+    width: 45%;
+}
+.DrivingCon h1 {
+    font-size: 60px;
+    font-weight: 300;
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+    padding-top: 220px;
+}
+.DrivingCon p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-right: 15px;
+}
+.DrivingCon a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+/* Driver Part End */
+
+
+
+
+/* About Part  */
+
+.AboutPart-2 {
+    background: #82ca9c;
+    color: #ffffff;
+}
+
+/* About Part End */
+
+
+
+/* Buy part  */
+
+.BuyPart {
+    height: 90vh;
+    width: 100%;
+    background: #f6f7fa;
+}
+.BuyPart .row {
+    padding-top: 80px;
+}
+.BuyBox-1 {
+    width: 100%;
+    padding: 45px 50px;
+}
+.BuyBox-1 .top-btn {
+    font-size: 11px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    background: #e1e1e1 !important;
+    border-color: #e1e1e1 !important;
+    padding: 6px 20px;
+    border-radius: 4px !important;
+    margin-bottom: 20px;
+}
+.BuyBox-1 h2 {
+    font-size: 32px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+}
+.BuyBox-1 p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+}
+.BuyBox-1 .end-btn {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #82ca9c !important;
+    border-color: #82ca9c !important;
+    padding: 15px 40px;
+    border-radius: 4px !important;
+    margin-bottom: 10px;
+}
+.BuyBox-1 .BoxIcon a {
+    color: #e1e1e1 !important;
+    font-size: 35px;
+    padding: 10px;
+}
+
+
+
+
+
+.BuyBox-2 {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 45px 50px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2px 6px 18px 2px;
+}
+.BuyBox-2 .top-btn {
+    font-size: 11px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    background: #bd8cbf !important;
+    border-color: #bd8cbf !important;
+    padding: 6px 20px;
+    border-radius: 4px !important;
+    margin-bottom: 20px;
+}
+.BuyBox-2 h2 {
+    font-size: 32px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+}
+.BuyBox-2 p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+}
+.BuyBox-2 .end-btn {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #82ca9c !important;
+    border-color: #82ca9c !important;
+    padding: 15px 40px;
+    border-radius: 4px !important;
+    margin-bottom: 10px;
+}
+.BuyBox-2 .BoxIcon a {
+    color: #e1e1e1 !important;
+    font-size: 35px;
+    padding: 10px;
+}
+
+/* Buy part End */
+
+
+
+
+
+/* Footer Part  */
+
+.FooterPart {
+    height: 80vh;
+    width: 100%;
+    background: #192431;
+    padding-top: 15px;
+}
+.FooterPart h5 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #67676d;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 50px;
+}
+.FooterPart p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #959595;
+    padding-top: 20px;
+}
+
+    /* Search Box  */
+        .input-group input {
+            border-radius: 0% !important;
+            height: 50px !important;
+            margin-top: 24px;
+        }
+        .input-group button {
+            border-radius: 0% !important;
+            height: 50px !important;
+            margin-top: 24px;
+            background-color: #82ca9c !important;
+        }
+        .input-group p {
+            padding-right: 40%;
+            color: #57697f;
+        }
+
+    /* Search Box End */
+
+
+.FooterPart ul {
+    list-style: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #959595;
+    padding-left: 0%;
+}
+.NavFooter h5 {
+    padding-top: 0px !important;
+}
+
+/* Footer Part End */
+
+
